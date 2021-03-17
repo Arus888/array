@@ -1,0 +1,3 @@
+let arr = ["i", "eat", "xtacrac kat", "forever"];
+let removed = arr.splice(0, 2);
+alert( removed );
