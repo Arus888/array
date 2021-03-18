@@ -1,0 +1,11 @@
+let arr = [1, 4];
+let arrayLike = {
+0: "something",
+1: "else",
+2: "i",
+3: "wanna",
+4: "say",
+[Symbol.isConcatSpreadable]: true,
+length: 5
+};
+alert( arr.concat(arrayLike) );
