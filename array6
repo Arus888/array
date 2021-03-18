@@ -1,0 +1,3 @@
+let arr = ["j", "a", "v", "a"];
+alert( arr.slice(1, 3) );
+alert( arr.slice(-2) )
