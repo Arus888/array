@@ -1,0 +1,6 @@
+let arr = ["kakao", "xtacrac kat"];
+let arrayLike = {
+0: " xtacrac kat ",
+length:1
+};
+alert( arr.concat(arrayLike) )
